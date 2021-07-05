@@ -1,7 +1,11 @@
 import "./App.css";
-
+import { Section } from "./Components/Section/Section";
 function App() {
-  return <h1></h1>;
+  return (
+    <div>
+      <Section />
+    </div>
+  );
 }
 
 export default App;
